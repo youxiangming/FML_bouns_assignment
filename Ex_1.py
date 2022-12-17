@@ -441,4 +441,5 @@ ys_valid_pred = xs_valid_gauss @ _my_weights
 # raise NotImplementedError()
 
 _mse = my_mse(ys_valid_std, ys_valid_pred)
+
 print(f"Your validation MSE should be roughly 18.3 and it is {_mse}")
